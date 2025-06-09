@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* Font will be set by tailwind.config.ts via className on <body> in layout.tsx */
+}
+
+@layer base {
+  :root {
+    --background: 60 56% 91%; /* #F5F5DC Light Beige */
+    --foreground: 0 0% 20%; /* #333333 Dark Gray */
+
+    --card: 60 50% 95%; /* #F7F7ED Slightly whiter/lighter beige for cards */
+    --card-foreground: 0 0% 20%; /* #333333 Dark Gray */
+
+    --popover: 60 50% 95%; /* Consistent with card */
+    --popover-foreground: 0 0% 20%;
+
+    --primary: 122 44% 38%; /* #388E3C Deep Green */
+    --primary-foreground: 0 0% 98%; /* #FAFAFA Off-white */
+
+    --secondary: 122 40% 55%; /* Lighter, less saturated green, e.g., #67ab6a */
+    --secondary-foreground: 0 0% 98%; /* Off-white */
+
+    --muted: 60 30% 85%; /* Muted Beige, e.g., #E8E8D1 */
+    --muted-foreground: 0 0% 40%; /* #666666 Mid Gray */
+
+    --accent: 42 100% 50%; /* #FFB300 Warm Yellow */
+    --accent-foreground: 0 0% 10%; /* #1A1A1A Very Dark Gray/Black for high contrast on yellow */
+
+    --destructive: 0 72% 51%; /* A standard red, e.g., #E53E3E */
+    --destructive-foreground: 0 0% 98%; /* #FAFAFA Off-white */
+
+    --border: 60 20% 80%; /* Light gray-beige border, e.g., #DCDCCA */
+    --input: 60 30% 88%; /* Slightly different beige for input, e.g., #EBEBDC */
+    --ring: 122 44% 45%; /* Slightly lighter primary for ring focus, e.g., #4CAF50 */
+
+    --chart-1: 122 44% 38%; /* Primary Green */
+    --chart-2: 42 100% 50%; /* Accent Yellow */
+    --chart-3: 25 80% 55%; /* An earthy orange #F0A55F */
+    --chart-4: 200 50% 50%; /* A muted blue #4080BF */
+    --chart-5: 0 0% 50%; /* Gray #808080 */
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Keeping dark mode structure from original, but values match light for now as not requested */
+    --background: 60 56% 91%;
+    --foreground: 0 0% 20%;
+    --card: 60 50% 95%;
+    --card-foreground: 0 0% 20%;
+    --popover: 60 50% 95%;
+    --popover-foreground: 0 0% 20%;
+    --primary: 122 44% 38%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 122 40% 55%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 60 30% 85%;
+    --muted-foreground: 0 0% 40%;
+    --accent: 42 100% 50%;
+    --accent-foreground: 0 0% 10%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 60 20% 80%;
+    --input: 60 30% 88%;
+    --ring: 122 44% 45%;
+    
+    --chart-1: 122 44% 38%;
+    --chart-2: 42 100% 50%;
+    --chart-3: 25 80% 55%;
+    --chart-4: 200 50% 50%;
+    --chart-5: 0 0% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

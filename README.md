@@ -30,16 +30,9 @@ To get this project up and running on your local machine, follow these steps:
     ```
 
 3.  **Configure Environment Variables**:
-    Create a `.env.local` file in the root directory and add your Firebase (or other backend) configuration details, and any other API keys:
+    Create a `.env.local` file in the root directory and add your backend configuration details, and any other API keys:
     ```
-    NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
-    NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain
-    NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
-    NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_storage_bucket
-    NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
-    NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
-    NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=your_measurement_id
-    # Add any other necessary environment variables here
+    # Add your environment variables here
     ```
 
 4.  **Run the development server**:

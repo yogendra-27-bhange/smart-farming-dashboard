@@ -1,5 +1,5 @@
 // This is a mock authentication module.
-// In a real application, you would integrate with Firebase Auth or another auth provider.
+// In a real application, you would integrate with an authentication provider.
 
 export interface User {
   id: string;

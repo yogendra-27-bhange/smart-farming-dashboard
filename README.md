@@ -50,18 +50,3 @@ To get this project up and running on your local machine, follow these steps:
 
     Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Screenshots (Optional)
-
-Include screenshots here to showcase the main features and user interface of the dashboard.
-
-![Dashboard Overview](link-to-your-dashboard-screenshot.png)
-
-![Farm Management Section](link-to-your-farm-management-screenshot.png)
-
-## Contributing
-
-(Placeholder: Information on how others can contribute to the project, e.g., bug reports, feature requests, pull requests).
-
-## License
-
-(Placeholder: Information about the project's license). 
